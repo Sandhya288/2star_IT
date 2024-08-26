@@ -1,0 +1,127 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 37px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 14px;
+}
+
+.skills {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+}
+
+.skillImageContainer img {
+  width: 100px;
+}
+
+.skill p {
+  font-size: 20px;
+  font-family: var(--font-roboto);
+  font-weight: 200;
+}
+
+.history {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.historyItem img {
+  width: 50px;
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+  text-align: left;
+}
+
+.historyItemDetails h3 {
+  font-size: 24px; /* Reduced font size */
+  font-weight: 400; /* Reduced font weight */
+}
+
+.historyItemDetails p {
+  font-size: 20px; /* Reduced font size */
+  font-weight: 200;
+  text-align: left;
+}
+
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 20px; /* Reduced font size */
+  list-style-type: disc;
+  margin-left: 10px;
+  text-align: left;
+}
+
+@media screen and (max-width: 780px) {
+  .content {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .history {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .historyItemDetails {
+    text-align: left;
+  }
+}

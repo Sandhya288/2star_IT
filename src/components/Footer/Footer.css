@@ -1,0 +1,210 @@
+@import "../../vars.css";
+.footer-dark {
+    background-color: #070707;
+    padding: 40px 0;
+    color: #f0f0f0;
+  }
+  
+  .footer-dark .container {
+    max-width: 1170px;
+    width: 90%;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-dark .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-dark .footer-top img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .footer-dark .footer-top h3 {
+    margin: 0 0 10px; /* Adjust top margin for spacing */
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .footer-dark .footer-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-dark .footer-middle .footer-item {
+    width: 20%;
+    text-align: center;
+  }
+  
+  .footer-dark .footer-middle .footer-item h4 {
+    margin: 0 0 10px; /* Adjust top margin for spacing */
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .footer-dark .footer-middle .footer-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-dark .footer-middle .footer-item ul li {
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+  
+  /* Target anchor tags within the footer */
+  .footer-dark .footer-middle .footer-item ul li a {
+    color: inherit;  /* Inherit color from parent element */
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-dark .footer-middle .footer-item ul li a:hover {
+    color: #e0e0e0;
+  }
+  
+  .footer-dark .footer-bottom {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .footer-dark .footer-bottom a {
+    color: inherit;  /* Inherit color from parent element */
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-dark .footer-bottom a:hover {
+    color: #e0e0e0;
+  }
+  
+  /* Social Media Icons */
+  .footer-dark .socialbtns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .footer-dark .socialbtns ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-dark .socialbtns ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  
+  
+  .footer-dark .socialbtns ul li a {
+    color: inherit;  /* Inherit color from parent element */
+    transition: all 0.3s ease;
+  }
+  
+  .footer-dark .socialbtns ul li a:hover {
+    color: #e0e0e0;
+  }
+  
+  .footer-dark .socialbtns ul li img {
+    width: 20px;
+    height: 20px;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .8);
+    padding-left: calc(var(--bs-gutter-x)* .8);
+    margin-right: auto;
+    margin-left: auto;
+}  
+
+.row {
+    display: flex;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.row>* {
+    flex-shrink: 5;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+
+  
+
+
+  .socialbtns .fa {
+    width: 40px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-top: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    border-radius: 22px;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,193 @@
+@import "../../vars.css";
+
+element.style {
+  box-shadow: 0px 0px 10px #888888;
+  color: white;
+}
+p {
+  color: var(--color-text);
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+
+h1 {
+  color: var(--color-text);
+  font-family: Nunito, sans-serif;
+  font-weight: 700;
+  font-size: 37px;
+  
+  text-align: center;
+}
+
+.team-img {
+  width: 70%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease 0s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+}
+img, svg {
+  vertical-align: middle;
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+* {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+element.style {
+  color: white;
+}
+* {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.team-card-container {
+  display: flex;
+  width: 375px;
+  margin: 0px 0px 40px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+
+.wk-desk-3 {
+  width: 40%;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+* {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+
+
+.right-section {
+  flex: 1;
+  color: white;
+
+  text-align: center;
+
+ 
+}
+@media screen and (max-width: 600px) {
+    .left-section {
+      padding: 10px; /* Reduce padding for smaller screens */
+     width: 100%;
+    }
+
+    .int {
+      font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .intro {
+      font-size: 20px; /* Adjust font size for smaller screens */
+ margin: 10px;
+    }
+  }
+
+
+/* Styles for the profile cards container */
+.prof {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-right: 100px;
+  padding: 40px;
+}
+
+/* Styles for the profile cards */
+.profile-card {
+  display: flex;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+
+}
+
+.profile-card img {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+}
+.team-card{
+  align-items: center;
+}
+
+/* Media query for screens with a maximum width of 768px (typical mobile screens) */
+@media (max-width: 768px) {
+  .container1 {
+    display: flex;
+    align-items: center;
+      flex-direction: column; /* Stack sections vertically on smaller screens */
+  }
+
+  .left-section, .right-section {
+      flex: auto; /* Take up the available width on smaller screens */
+      padding: 20px;
+      text-align: center; /* Center text within sections */
+  }
+
+  .right-section .prof {
+      flex-direction: column; /* Display profile cards side by side */
+      justify-content: center; /* Center profile cards horizontally */
+  }
+}

@@ -1,0 +1,203 @@
+/* PieChart.css */
+@import "../../vars.css";
+/* Container for the pie chart */
+.PieChartContainer {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    
+   
+  }
+
+  
+@media (min-width: 768px) {
+    .PieChartContainer {
+       flex-direction: row;
+    }
+    
+    .pie-chart {
+       width: 70%; /* Adjust as needed */
+    }
+    
+    .description {
+       width: 30%; /* Adjust as needed */
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+   
+    
+ }
+ 
+ .pie-chart {
+    flex: 1;
+    margin-right: 30px; /* Adjust as needed for spacing between PieChart and description */
+ }
+ 
+ .description {
+    flex: 1;
+    text-align: left;
+ }
+ 
+ 
+ @media (max-width: 768px) {
+    .container {
+       flex-direction: column;
+      
+    }
+ 
+    .pie-chart {
+       margin-right: 0; /* Reset margin for mobile view */
+       margin-bottom: 50px; /* Adjust as needed for spacing between PieChart and description */
+    }
+ }
+
+ .heading {
+  
+    
+    font-size: 28px;
+    color: #FFF;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif; /* Adjust as needed */
+ }
+ 
+ .description-line {
+    font-size: 20px; /* Adjust as needed */
+    margin-bottom: 5px;
+    justify-content: flex-start;
+    font-family: "Times New Roman", Times, serif; /* Adjust as needed */
+ }
+ 
+ 
+
+  @media (max-width: 576px) {
+    .PieChartContainer {
+      width: 80%; /* Further adjust the width for even smaller screens */
+      height: 30vh; /* Further adjust the height for even smaller screens */
+    }
+  }
+  .custom-label {
+    fill: #FFF; /* White color for the text */
+    font-size: 2vw;
+    font-weight: 230px;
+   margin-top: 20px;
+   
+  
+    /* Center align the text */
+  }
+  @media (max-width: 768px) {
+    .custom-label text {
+       /* Font size for mobile devices */
+       font-size: 16px; /* Adjust this value based on your preference */
+    }
+ }
+  
+  @media (max-width: 576px) {
+    .custom-label {
+      font-size: 25px;
+       /* Further adjust font size for even smaller screens */
+    }
+  }
+
+  
+ 
+
+/* Pichart.css */
+/* Pichart.css */
+
+  
+  
+  .custom-label.embossed {
+    text-shadow: 0 0 15px rgba(255,255,255,0.7); /* Add embossed effect */
+ }
+ 
+ .custom-pie-cell:hover {
+    filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.8));
+  }
+  
+
+  
+  /* Tooltip style */
+  .recharts-default-tooltip {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    color: #333;
+  }
+  
+  /* Legend style */
+  .recharts-legend-wrapper {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Legend item style */
+  .recharts-legend-item-text {
+    font-size: 15px;
+    margin-top: 50px;
+   
+    color: #333;
+  }
+  
+  /* Legend icon style */
+  .recharts-legend-icon {
+    margin-right: 15px;
+  }
+  
+  /* Sector style */
+  .recharts-pie-sector {
+    transition: fill 0.3s ease;
+  }
+  
+  /* Hover effect on sector */
+  .recharts-pie-sector:hover {
+    opacity: 0.6;
+  }
+  
+  /* Active sector style */
+  .recharts-pie-sector.active {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Description of the active sector */
+  .activeIndex.description {
+    font-size: 12px;
+    color: #333;
+    
+  }
+  .PieChartContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+    animation: fadeIn 1s ease-out; /* Example animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .PieChartContainer {
+      height: auto; 
+      padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    width: 100%;/* Adjust the height to fit content */
+    }
+  }
+
+  

@@ -1,0 +1,124 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 40px;
+  margin-top: 100px;
+  z-index: 1;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  font-weight: 200;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start; /* Align items to the start (left) */
+  width: 100%; /* Ensure content spans the full width of its container */
+}
+
+.aboutImage {
+  width: 50%;
+  z-index: 99;
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 2px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.aboutItem p {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding: 2px; /* Adjust padding for smaller screens */
+    margin-left: 2%;
+   
+    padding-right: 5px;
+  }
+
+  .title {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .content {
+    flex-direction: column; /* Change direction to column for smaller screens */
+    align-items: flex-start; /* Align items to the start (left) */
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 20px; /* Adjust top margin for smaller screens */
+  }
+
+  .aboutItem {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .aboutItem h3,
+  .aboutItem p {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+}

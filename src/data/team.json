@@ -1,0 +1,21 @@
+[
+ 
+
+  
+  {
+    "title": "AVINASH",
+    "role":"Marketing Manager",
+    "imageSrc": "skills/Avinash.png"
+  },
+  {
+    "title": "DARSHITH",
+    "role":"Buisness Development Manager",
+    "imageSrc": "skills/Dakshith.png"
+  },
+  {
+    "title": "RAKSHITH",
+    "role":"Software Development Manager",
+    "imageSrc": "skills/Rakshith.png"
+  }
+  
+]
