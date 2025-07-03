@@ -7,17 +7,17 @@ class PieRechartComponent extends React.Component {
    pieData = [
       {
          name: "SOFTWARE",
-         value: 45.00,
+         
          description: "•Web Application: •App Development: •SEO: •Desktop Softwares: •Digital Marketing"
       },
       {
          name: "HARDWARE",
-         value: 35.00,
+        
          description: "•PC/LAPTOP Repair: •Brand new laptop & Systems: •Republished laptop/Systems: •CCTV Networking, Installation & Services: •Printer, scanner Toners: •Brand new Tabs"
       },
       {
          name: "INTENSHIP",
-         value: 30.00,
+         
          description: "•Full Stack Web Development: •Website Design: •Photo & Video Editing Course: •Artificial Intelligence & Machine learning: •Tally and GST: •Brainstorm Education(AGE 5-15): •Basic Computer Course"
       }
    ];
