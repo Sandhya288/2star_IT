@@ -45,7 +45,7 @@ class PieRechartComponent extends React.Component {
                   <Pie
                      data={this.pieData}
                      color="#000000"
-                     dataKey="value"
+                    
                      nameKey="name"
                      cx="50%"
                      cy="50%"
