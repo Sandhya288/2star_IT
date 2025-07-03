@@ -79,10 +79,10 @@ const ContactUsComponent = () => {
             </p>
             <p className="text-blk map-contactus-subhead">
               2STAR IT SOLUTION PRIVATE LIMITED<br />
-              AIC Building, 3rd floor, office no-7. <br />
-              NITTE college campus <br />
-              +91 9606017246 <br />
-              +91 7899410893
+              4-236/C, Beeralpete, Nallur, Village & Post, Karkala Tq,<br />
+              Udupi, Karnataka, India, 574122 <br />
+              OMAN : +91 968 98787853 <br />
+             INDIA: +91 7899410893
             </p>
             <div className="social-media-links mob">
               <a className="social-icon-link" href="https://twitter.com/2staritsolution" id="ix94i-2-2">
