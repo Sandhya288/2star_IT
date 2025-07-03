@@ -16,7 +16,7 @@ const DirectorsComponent = () => {
                             style={{ boxShadow: '0px 0px 10px #888888' }}>
                             <div className="team-card">
                                 <div className="img-wrapper">
-                                    <img className="team-img" src="https://2staritsolution.netlify.app/2.png" alt="Director 1" />
+                                    <img className="team-img" src="https://2staritsolution.netlify.app/2.jpg" alt="Director 1" />
                                 </div>
                                 <p className="text-blk name">
                                     RAJENDRA M SHETTY
