@@ -21,9 +21,8 @@ const Footer = () => {
                 <li>
                   <i className="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;
                   <a href="#">
-                    AIC Building, 3rd floor <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;Office no-7, <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;NITTE College Campus
+                    4-236/C, Beeralpete, Nallur, Village & Post, Karkala Tq,<br />
+              Udupi, Karnataka, India, 574122 <br />
                   </a>
                 </li>
                 <li>
