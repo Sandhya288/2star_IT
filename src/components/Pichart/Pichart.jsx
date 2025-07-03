@@ -73,7 +73,7 @@ class PieRechartComponent extends React.Component {
                         .split(":")
                         .filter(Boolean)
                         .map((line, i) => (
-                           <p key={i} className="description-line">• {line.trim()}</p>
+                           <p key={i} className="description-line"> {line.trim()}</p>
                         ))}
                   </div>
                )}
