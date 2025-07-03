@@ -3,20 +3,20 @@ import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
 import "./Pichart.css";
 
 class PieRechartComponent extends React.Component {
-   COLORS = ["#8884d8", "#82ca9d", "#FF8042", "#FFBB28", "#AF19FF"];
+   COLORS = ["#8884d8", "#82ca9d", "#FF8042"];
 
    pieData = [
       {
          name: "SOFTWARE",
-         description: "•Web Application: •App Development: •SEO: •Desktop Softwares: •Digital Marketing"
+         description: "• Web Application: • App Development: • SEO: • Desktop Softwares: • Digital Marketing"
       },
       {
          name: "HARDWARE",
-         description: "•PC/LAPTOP Repair: •Brand new laptop & Systems: •Republished laptop/Systems: •CCTV Networking, Installation & Services: •Printer, scanner Toners: •Brand new Tabs"
+         description: "• PC/LAPTOP Repair: • Brand new laptop & Systems: • Republished laptop/Systems: • CCTV Networking, Installation & Services: • Printer, Scanner Toners: • Brand new Tabs"
       },
       {
          name: "INTENSHIP",
-         description: "•Full Stack Web Development: •Website Design: •Photo & Video Editing Course: •Artificial Intelligence & Machine learning: •Tally and GST: •Brainstorm Education(AGE 5-15): •Basic Computer Course"
+         description: "• Full Stack Web Development: • Website Design: • Photo & Video Editing Course: • Artificial Intelligence & Machine Learning: • Tally and GST: • Brainstorm Education (AGE 5-15): • Basic Computer Course"
       }
    ];
 
@@ -34,13 +34,14 @@ class PieRechartComponent extends React.Component {
 
    render() {
       const { activeIndex } = this.state;
+      const pieDataWithValue = this.pieData.map(item => ({ ...item, value: 1 }));
 
       return (
          <div className="container">
             <div className="pie-chart">
                <PieChart width={Math.min(700, window.innerWidth * 0.9)} height={400}>
                   <Pie
-                     data={this.pieData}
+                     data={pieDataWithValue}
                      dataKey="value"
                      nameKey="name"
                      cx="50%"
@@ -58,7 +59,9 @@ class PieRechartComponent extends React.Component {
                         />
                      ))}
                   </Pie>
-                  <Tooltip />
+                  <Tooltip
+                     contentStyle={{ display: "none" }} // hides tooltip popup
+                  />
                   <Legend />
                </PieChart>
             </div>
