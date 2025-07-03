@@ -28,7 +28,7 @@ const DirectorsComponent = () => {
                                 <p style={{ color: 'white' }}>
                                     RMS Solid & Hollow Industries -India -Propritor <br />
                                     RAK -IT & Electronic Division Oman -MD <br />
-                                    Shupala Formar Products Nitte - Executive Director. <br />
+                                    Suphala Formar Producer company Nitte - Director & COO. <br />
                                 </p>
                                 <div className="social-media-links">
                                     <a href="http://www.twitter.com/" target="_blank" rel="noopener noreferrer">
