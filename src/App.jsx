@@ -14,7 +14,7 @@ import Footer from "./components/Footer/Footer";
 import { Experience } from "./components/Experience/Experience";
 import Products from "./components/Product/Product";
 
-import { PieChart } from "recharts";
+
 
 import CareerDesign from "./components/Careers/Careers";
 import ImageSlider from "./components/Careers/Careers";
@@ -26,7 +26,7 @@ function App() {
     <div className={styles.App}>
       <Navbar />
       <Hero />
-      <PieRechartComponent/>
+     
       <About />
       <DirectorsComponent/>
       <Mission/>
