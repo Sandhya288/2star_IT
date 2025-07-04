@@ -81,8 +81,9 @@ const ContactUsComponent = () => {
               2STAR IT SOLUTION PRIVATE LIMITED<br />
               4-236/C, Beeralpete, Nallur, Village & Post, Karkala Tq,<br />
               Udupi, Karnataka, India, 574122 <br />
-              OMAN : +968 98787853 <br />
-             INDIA: +91 7899410893
+             INDIA : +91 7899410893 <br />
+               OMAN : +968 98787853
+             
             </p>
             <div className="social-media-links mob">
               <a className="social-icon-link" href="https://twitter.com/2staritsolution" id="ix94i-2-2">
