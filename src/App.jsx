@@ -13,9 +13,9 @@ import ServiceCard from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
 import { Experience } from "./components/Experience/Experience";
 import Products from "./components/Product/Product";
-import ThreeSectionPieChart from "./components/Pichart/Pichart";
+
 import { PieChart } from "recharts";
-import PieRechartComponent from "./components/Pichart/Pichart";
+
 import CareerDesign from "./components/Careers/Careers";
 import ImageSlider from "./components/Careers/Careers";
 import SliderComponent from "./components/Careers/Careers";
