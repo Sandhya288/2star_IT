@@ -82,7 +82,9 @@ const ContactUsComponent = () => {
               4-236/C, Beeralpete, Nallur, Village & Post, Karkala Tq,<br />
               Udupi, Karnataka, India, 574122 <br />
              INDIA : +91 7899410893 <br />
-               OMAN : +968 98787853
+               OMAN : +968 98787853 <br />
+              Email : 2staritsolution@gmail.com
+                     <br /> 2staritsolution1@gmail.com
              
             </p>
             <div className="social-media-links mob">
